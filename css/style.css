@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+.login-box{
+	width: 40%;
+	margin: 50px auto;
+}
+.main-form{
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+	background: #eeee;
+	border: 2px solid red;
+	border-radius: 10px;
+}
+.main-form .avatar-img{
+	width: 100%;
+	text-align: center;
+}
+.main-form .avatar-img .avatar{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 5px solid blue;
+}
+.main-form h2{
+	font-size: 35px;
+	line-height: 45px;
+	color: red;
+	text text-align: center;
+	margin: 20px 0px;
+}
+
+.main-form .form-group{
+	width: 100%;
+	margin: 15px 0px;
+}
+.main-form .form-group label{
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+	margin: 0px 0px 5px;
+	text-align: left;
+	align-items: flex-start;
+}
+.main-form .form-control{
+	width: 100%;
+	padding: 10px;
+	font-size: 13px;
+	border: 1px solid #000;
+}
+.main-form .btn-btn{
+	padding: 15px 40px;
+	border: 1px solid #000;
+	border-radius:10px;
+	background: red;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 20px 0px 0px;
+	cursor: pointer;
+}
+.main-form .btn-btn:hover{
+	letter-spacing: 4px;
+	transition: 1s;
+	border: 1px solid #000;
+	background: green;
+	color: white;
+}
